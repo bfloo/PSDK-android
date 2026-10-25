@@ -28,7 +28,7 @@ allprojects {
         mavenCentral()
         maven { url "https://jitpack.io" }
         maven {
-            url "https://maven.pkg.github.com/Scorbutics/litergss-everywhere"
+            url "https://maven.pkg.github.com/bfloo/litergss-everywhere"
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
                 password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
